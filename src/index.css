@@ -1,0 +1,39 @@
+@import 'tailwindcss';
+
+:root {
+  font-family: Inter, 'Segoe UI', sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+  color: rgba(255, 255, 255, 0.9);
+  background: #070b11;
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  margin: 0;
+  min-width: 320px;
+  background:
+    radial-gradient(circle at top, rgba(251, 146, 60, 0.1), transparent 24%),
+    radial-gradient(circle at bottom right, rgba(45, 212, 191, 0.08), transparent 26%),
+    #070b11;
+}
+
+#root {
+  min-height: 100vh;
+}
+
+::selection {
+  background: rgba(251, 146, 60, 0.3);
+  color: white;
+}
+
+a {
+  text-decoration: none;
+}
