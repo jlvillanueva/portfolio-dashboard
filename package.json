@@ -11,7 +11,7 @@
     "predeploy": "npm run build",
     "deploy": "gh-pages -d dist"
   },
-  "homepage": "https://yourusername.github.io/portfolio",
+  "homepage": "https://jlvillanueva.github.io/portfolio-dashboard/",
   "dependencies": {
     "react": "^19.2.8",
     "react-dom": "^19.2.8"
