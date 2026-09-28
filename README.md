@@ -46,4 +46,5 @@ npm run build
 
 ## 👨‍💻 Author
 
-Your Name
+Jan Luis Villanueva
+
